@@ -1,6 +1,5 @@
-Right click - Git Bash Here
-cd C:\Users\analu\Desktop\PythonScripts
-
+Right click on desktop and select "Git Bash Here"
+within the window write: "cd C:\Users\analu\Desktop\PythonScripts"
 
 "Git status" to compare your origin/master with local folder (local repo / repository)
 "Git add ." to add all file to your future commit (commit is an addition to your github)
