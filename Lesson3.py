@@ -56,3 +56,23 @@ print(population.get('Shanghai'))
 x = population.get('Shanghai')
 print(x is None)
 print(x is not None)
+
+print(id(True))
+
+# Tuple and list - mutable vs immutable - ids
+
+a = (1,2)
+b = (1,2)
+print(a == b)
+print(a is b)
+print(id(a))
+
+a = (1,) + a[1:]
+print(id(a))
+
+b = [1, 2, 3, 4]
+print(id(b))
+
+b.append(5)
+print(b)
+print(id(b))
