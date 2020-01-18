@@ -31,7 +31,7 @@ print(len(my_list))
 print(my_list.pop())
 print(my_list)
 
-
+# Variable
 names = ['Rob', 'Vinnie', 'Joe', 'Ritchie', 'Luciana', 'Leona', 'Rob', 'Ana', 'Luciana']
 
 print(len(names))
