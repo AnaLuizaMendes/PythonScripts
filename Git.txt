@@ -1,0 +1,7 @@
+Right click on desktop and select "Git Bash Here"
+within the window write: "cd C:\Users\analu\Desktop\PythonScripts"
+
+"Git status" to compare your origin/master with local folder (local repo / repository)
+"Git add ." to add all file to your future commit (commit is an addition to your github)
+"Git commit -m "Add useful text here" to commit your file to be added
+"Git push -u origin" Commits your files 100% online, they can be found here: https://github.com/AnaLuizaMendes/PythonScripts
