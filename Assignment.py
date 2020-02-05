@@ -14,6 +14,8 @@ for each in range(int(students_number)):
     student_grades.append(int(input('What is the student ' + str(i + 1) + ' grade? ')))
     i += 1
 
+
+
 # how to find the highest and lowest numbers
 student_grades.sort()
 print('The highest grade in your class is ' + str(student_grades[0]))
