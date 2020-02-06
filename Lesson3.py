@@ -1,5 +1,4 @@
-#Lesson 3 - part 1 - exercises
-
+# Lesson 3 - Practising
 #def fuction
 
 def multiply(a, b):
