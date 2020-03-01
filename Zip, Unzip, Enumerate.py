@@ -40,6 +40,6 @@ cast = ["Barney Stinson", "Robin Scherbatsky", "Ted Mosby", "Lily Aldrin", "Mars
 heights = [72, 68, 72, 66, 76]
 
 for i, name in enumerate(cast):
-    cast[i] += ' : ' + str(heights[i])
+    cast[i] += ': ' + str(heights[i])
 
 print(cast)
