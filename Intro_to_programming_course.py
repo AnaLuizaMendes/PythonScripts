@@ -43,8 +43,6 @@ for side in range(8):
     george.right(135)
 
 # Some shapes:
-shapes = [1, 2, 3, 4, 5, 6]
-sides = [1, 2, 3, 4, 5, 6]
 
 george.color("cyan")
 
@@ -52,8 +50,8 @@ george.penup()
 george.back(150)
 george.pendown()
 
-for shape in shapes:
-    for side in sides:
+for shape in range(6):
+    for side in range(6):
         george.forward(40)
         george.right(60)
     george.penup()
