@@ -35,4 +35,3 @@ for rainbow_color in rainbow:
     ray.forward(100)
     ray.right(180)
     ray.pendown()
-ray.hideturtle()
